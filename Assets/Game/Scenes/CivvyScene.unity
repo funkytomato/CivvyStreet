@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.49641287, b: 0.5748173, a: 1}
+  m_IndirectSpecularColor: {r: 0.44659364, g: 0.4964301, b: 0.5748256, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1148,6 +1148,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 13246977}
   m_Mesh: {fileID: 4300282, guid: 8ed86b8ef3190a9429964c02eaa4f31c, type: 3}
+--- !u!1 &19016323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 272460217}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 272460218}
+  m_Layer: 0
+  m_Name: Tree1 (1) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &21348520
 GameObject:
   m_ObjectHideFlags: 0
@@ -1829,12 +1845,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38645645}
   m_Mesh: {fileID: 4300358, guid: 8ed86b8ef3190a9429964c02eaa4f31c, type: 3}
---- !u!4 &38763427 stripped
+--- !u!4 &38763427
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 470934, guid: 7692fca38ff1e2a41a1150cb803fe20c,
     type: 3}
   m_PrefabInstance: {fileID: 324146731}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228254583}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 324146732}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &39246673
 GameObject:
   m_ObjectHideFlags: 0
@@ -2363,12 +2388,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 47803453}
   m_Mesh: {fileID: 4300006, guid: 8ed86b8ef3190a9429964c02eaa4f31c, type: 3}
---- !u!4 &48109499 stripped
+--- !u!4 &48109499
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 487244, guid: 24a898469d9c2394bb863db56a74b3d6,
     type: 3}
   m_PrefabInstance: {fileID: 554001275}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420711081}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 554001276}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &51451496
 GameObject:
   m_ObjectHideFlags: 0
@@ -4630,6 +4664,22 @@ Transform:
   m_Father: {fileID: 676468921}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &88836524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 272460217}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 907357602}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &90529173
 GameObject:
   m_ObjectHideFlags: 0
@@ -8958,6 +9008,22 @@ Transform:
   m_Father: {fileID: 1289992932}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &178255866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 476199765}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 476199766}
+  m_Layer: 0
+  m_Name: Tree1 (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &178890617
 GameObject:
   m_ObjectHideFlags: 0
@@ -9787,6 +9853,24 @@ MonoBehaviour:
     _addEnergyOverTime: 1
     _addEnergyAmount: 1
     _addEnergyCoolDown: 5
+    _useIntoxication: 0
+    _intoxicationPoints: 10
+    _curIntoxicationPoints: 0
+    _reduceIntoxicationOverTime: 1
+    _reduceIntoxicationAmount: 1
+    _reduceIntoxicationCoolDown: 5
+    _useMorale: 0
+    _moralePoints: 10
+    _curMoralePoints: 0
+    _reduceMoraleOverTime: 1
+    _reduceMoraleAmount: 1
+    _reduceMoraleCoolDown: 5
+    _useTemperament: 0
+    _temperamentPoints: 10
+    _curTemperamentPoints: 0
+    _reduceTemperamentOverTime: 1
+    _reduceTemperamentAmount: 1
+    _reduceTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -9866,6 +9950,9 @@ MonoBehaviour:
   _generalSettings:
     _lowHealth: 30
     _lowEnergy: 30
+    _lowIntoxication: 0
+    _lowMorale: 0
+    _lowTemperament: 0
     _closeDistance: 2
     _midDistance: 5
     _farDistance: 10
@@ -15878,6 +15965,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17de3c1426f928b4e97bb2feeeb4d11e, type: 3}
+--- !u!4 &272460218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 272460217}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19016323}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 907357602}
+  m_Father: {fileID: 803361851}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &273775521
 GameObject:
   m_ObjectHideFlags: 0
@@ -18233,10 +18335,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 803361851}
     m_Modifications:
-    - target: {fileID: 142472, guid: 24a898469d9c2394bb863db56a74b3d6, type: 3}
-      propertyPath: m_Name
-      value: ChairA (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 487244, guid: 24a898469d9c2394bb863db56a74b3d6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.6924906
@@ -18281,8 +18379,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 142472, guid: 24a898469d9c2394bb863db56a74b3d6, type: 3}
+      propertyPath: m_Name
+      value: ChairA (2)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24a898469d9c2394bb863db56a74b3d6, type: 3}
+--- !u!4 &308405445
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 308405444}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221835154}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 757607608}
+  m_Father: {fileID: 803361851}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &308672990
 GameObject:
   m_ObjectHideFlags: 0
@@ -18968,10 +19085,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 803361851}
     m_Modifications:
-    - target: {fileID: 169916, guid: 7692fca38ff1e2a41a1150cb803fe20c, type: 3}
-      propertyPath: m_Name
-      value: GrassE
-      objectReference: {fileID: 0}
     - target: {fileID: 470934, guid: 7692fca38ff1e2a41a1150cb803fe20c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.1457558
@@ -19016,8 +19129,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 169916, guid: 7692fca38ff1e2a41a1150cb803fe20c, type: 3}
+      propertyPath: m_Name
+      value: GrassE
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7692fca38ff1e2a41a1150cb803fe20c, type: 3}
+--- !u!4 &324146732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 324146731}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386221178}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 38763427}
+  m_Father: {fileID: 803361851}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &324523993
 GameObject:
   m_ObjectHideFlags: 0
@@ -20305,6 +20437,22 @@ Transform:
   m_Father: {fileID: 671933221}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &356892235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 308405444}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 757607608}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &358409227
 GameObject:
   m_ObjectHideFlags: 0
@@ -23412,6 +23560,22 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.06254879, y: 0.024864048, z: 0.000000059604645}
     m_Extent: {x: 0.5167997, y: 0.2744613, z: 0.7707152}
   m_DirtyAABB: 0
+--- !u!1 &420711081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 554001275}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 48109499}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &421314742
 GameObject:
   m_ObjectHideFlags: 0
@@ -27010,6 +27174,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17de3c1426f928b4e97bb2feeeb4d11e, type: 3}
+--- !u!4 &476199766
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 476199765}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178255866}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 809689455}
+  m_Father: {fileID: 803361851}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &476970781
 GameObject:
   m_ObjectHideFlags: 0
@@ -27429,6 +27608,24 @@ MonoBehaviour:
     _addEnergyOverTime: 1
     _addEnergyAmount: 1
     _addEnergyCoolDown: 5
+    _useIntoxication: 0
+    _intoxicationPoints: 10
+    _curIntoxicationPoints: 0
+    _reduceIntoxicationOverTime: 1
+    _reduceIntoxicationAmount: 1
+    _reduceIntoxicationCoolDown: 5
+    _useMorale: 0
+    _moralePoints: 10
+    _curMoralePoints: 0
+    _reduceMoraleOverTime: 1
+    _reduceMoraleAmount: 1
+    _reduceMoraleCoolDown: 5
+    _useTemperament: 0
+    _temperamentPoints: 10
+    _curTemperamentPoints: 0
+    _reduceTemperamentOverTime: 1
+    _reduceTemperamentAmount: 1
+    _reduceTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -27508,6 +27705,9 @@ MonoBehaviour:
   _generalSettings:
     _lowHealth: 20
     _lowEnergy: 0
+    _lowIntoxication: 0
+    _lowMorale: 0
+    _lowTemperament: 0
     _closeDistance: 2
     _midDistance: 5
     _farDistance: 10
@@ -30646,6 +30846,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17de3c1426f928b4e97bb2feeeb4d11e, type: 3}
+--- !u!4 &546815607
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 546815606}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197669970}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1629597261}
+  m_Father: {fileID: 803361851}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &546916176
 GameObject:
   m_ObjectHideFlags: 0
@@ -31275,10 +31490,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 803361851}
     m_Modifications:
-    - target: {fileID: 142472, guid: 24a898469d9c2394bb863db56a74b3d6, type: 3}
-      propertyPath: m_Name
-      value: ChairA (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 487244, guid: 24a898469d9c2394bb863db56a74b3d6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.7624903
@@ -31323,8 +31534,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 142472, guid: 24a898469d9c2394bb863db56a74b3d6, type: 3}
+      propertyPath: m_Name
+      value: ChairA (3)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24a898469d9c2394bb863db56a74b3d6, type: 3}
+--- !u!4 &554001276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 554001275}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441713019}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 48109499}
+  m_Father: {fileID: 803361851}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &555265598
 GameObject:
   m_ObjectHideFlags: 0
@@ -37335,6 +37565,24 @@ MonoBehaviour:
     _addEnergyOverTime: 1
     _addEnergyAmount: 1
     _addEnergyCoolDown: 5
+    _useIntoxication: 0
+    _intoxicationPoints: 10
+    _curIntoxicationPoints: 0
+    _reduceIntoxicationOverTime: 1
+    _reduceIntoxicationAmount: 1
+    _reduceIntoxicationCoolDown: 5
+    _useMorale: 0
+    _moralePoints: 10
+    _curMoralePoints: 0
+    _reduceMoraleOverTime: 1
+    _reduceMoraleAmount: 1
+    _reduceMoraleCoolDown: 5
+    _useTemperament: 0
+    _temperamentPoints: 10
+    _curTemperamentPoints: 0
+    _reduceTemperamentOverTime: 1
+    _reduceTemperamentAmount: 1
+    _reduceTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -37414,6 +37662,9 @@ MonoBehaviour:
   _generalSettings:
     _lowHealth: 20
     _lowEnergy: 0
+    _lowIntoxication: 0
+    _lowMorale: 0
+    _lowTemperament: 0
     _closeDistance: 2
     _midDistance: 5
     _farDistance: 10
@@ -43189,12 +43440,21 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.06254876, y: 0.024890244, z: 0.000000059604645}
     m_Extent: {x: 0.5167996, y: 0.2744351, z: 0.7707152}
   m_DirtyAABB: 0
---- !u!4 &757607608 stripped
+--- !u!4 &757607608
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 487244, guid: 24a898469d9c2394bb863db56a74b3d6,
     type: 3}
   m_PrefabInstance: {fileID: 308405444}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356892235}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 308405445}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &758178658
 GameObject:
   m_ObjectHideFlags: 0
@@ -45953,7 +46213,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &803361851
 Transform:
   m_ObjectHideFlags: 0
@@ -45965,13 +46225,13 @@ Transform:
   m_LocalPosition: {x: 5.3975096, y: 3.2547054, z: 4.355774}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 907357602}
-  - {fileID: 1629597261}
-  - {fileID: 757607608}
-  - {fileID: 48109499}
-  - {fileID: 809689455}
-  - {fileID: 1690072744}
-  - {fileID: 38763427}
+  - {fileID: 272460218}
+  - {fileID: 546815607}
+  - {fileID: 308405445}
+  - {fileID: 554001276}
+  - {fileID: 476199766}
+  - {fileID: 1774946427}
+  - {fileID: 324146732}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -46431,12 +46691,21 @@ Transform:
   m_Father: {fileID: 1038914945}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &809689455 stripped
+--- !u!4 &809689455
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 402220, guid: 17de3c1426f928b4e97bb2feeeb4d11e,
     type: 3}
   m_PrefabInstance: {fileID: 476199765}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352484629}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 476199766}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &813144784
 GameObject:
   m_ObjectHideFlags: 0
@@ -52533,12 +52802,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906672069}
   m_Mesh: {fileID: 4300244, guid: 8ed86b8ef3190a9429964c02eaa4f31c, type: 3}
---- !u!4 &907357602 stripped
+--- !u!4 &907357602
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 402220, guid: 17de3c1426f928b4e97bb2feeeb4d11e,
     type: 3}
   m_PrefabInstance: {fileID: 272460217}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88836524}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 272460218}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &909064857
 GameObject:
   m_ObjectHideFlags: 0
@@ -56343,6 +56621,24 @@ MonoBehaviour:
     _addEnergyOverTime: 1
     _addEnergyAmount: 1
     _addEnergyCoolDown: 5
+    _useIntoxication: 0
+    _intoxicationPoints: 10
+    _curIntoxicationPoints: 0
+    _reduceIntoxicationOverTime: 1
+    _reduceIntoxicationAmount: 1
+    _reduceIntoxicationCoolDown: 5
+    _useMorale: 0
+    _moralePoints: 10
+    _curMoralePoints: 0
+    _reduceMoraleOverTime: 1
+    _reduceMoraleAmount: 1
+    _reduceMoraleCoolDown: 5
+    _useTemperament: 0
+    _temperamentPoints: 10
+    _curTemperamentPoints: 0
+    _reduceTemperamentOverTime: 1
+    _reduceTemperamentAmount: 1
+    _reduceTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -56422,6 +56718,9 @@ MonoBehaviour:
   _generalSettings:
     _lowHealth: 30
     _lowEnergy: 30
+    _lowIntoxication: 0
+    _lowMorale: 0
+    _lowTemperament: 0
     _closeDistance: 2
     _midDistance: 5
     _farDistance: 10
@@ -63534,7 +63833,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 862a4c74811e45c458971074b1daec65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimeDelayToReactivate: 0.5
 --- !u!114 &1082619341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63699,6 +63997,24 @@ MonoBehaviour:
     _addEnergyOverTime: 1
     _addEnergyAmount: 10
     _addEnergyCoolDown: 5
+    _useIntoxication: 0
+    _intoxicationPoints: 10
+    _curIntoxicationPoints: 0
+    _reduceIntoxicationOverTime: 1
+    _reduceIntoxicationAmount: 1
+    _reduceIntoxicationCoolDown: 5
+    _useMorale: 0
+    _moralePoints: 10
+    _curMoralePoints: 0
+    _reduceMoraleOverTime: 1
+    _reduceMoraleAmount: 1
+    _reduceMoraleCoolDown: 5
+    _useTemperament: 0
+    _temperamentPoints: 10
+    _curTemperamentPoints: 0
+    _reduceTemperamentOverTime: 1
+    _reduceTemperamentAmount: 1
+    _reduceTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -63778,6 +64094,9 @@ MonoBehaviour:
   _generalSettings:
     _lowHealth: 30
     _lowEnergy: 30
+    _lowIntoxication: 0
+    _lowMorale: 0
+    _lowTemperament: 0
     _closeDistance: 2
     _midDistance: 5
     _farDistance: 10
@@ -70740,6 +71059,24 @@ MonoBehaviour:
     _addEnergyOverTime: 1
     _addEnergyAmount: 1
     _addEnergyCoolDown: 5
+    _useIntoxication: 0
+    _intoxicationPoints: 10
+    _curIntoxicationPoints: 0
+    _reduceIntoxicationOverTime: 1
+    _reduceIntoxicationAmount: 1
+    _reduceIntoxicationCoolDown: 5
+    _useMorale: 0
+    _moralePoints: 10
+    _curMoralePoints: 0
+    _reduceMoraleOverTime: 1
+    _reduceMoraleAmount: 1
+    _reduceMoraleCoolDown: 5
+    _useTemperament: 0
+    _temperamentPoints: 10
+    _curTemperamentPoints: 0
+    _reduceTemperamentOverTime: 1
+    _reduceTemperamentAmount: 1
+    _reduceTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -70819,6 +71156,9 @@ MonoBehaviour:
   _generalSettings:
     _lowHealth: 30
     _lowEnergy: 30
+    _lowIntoxication: 0
+    _lowMorale: 0
+    _lowTemperament: 0
     _closeDistance: 2
     _midDistance: 5
     _farDistance: 10
@@ -71927,6 +72267,22 @@ Transform:
   m_Father: {fileID: 362996683}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1197669970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 546815606}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 546815607}
+  m_Layer: 0
+  m_Name: Tree1 (2) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1198318023
 GameObject:
   m_ObjectHideFlags: 0
@@ -73443,6 +73799,22 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.06254876, y: 0.024890244, z: 0.000000029802322}
     m_Extent: {x: 0.5167996, y: 0.2744351, z: 0.7707151}
   m_DirtyAABB: 0
+--- !u!1 &1221835154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 308405444}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 308405445}
+  m_Layer: 0
+  m_Name: ChairA (2) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1222875802
 GameObject:
   m_ObjectHideFlags: 0
@@ -73645,6 +74017,22 @@ Transform:
   m_Father: {fileID: 980949280}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1228254583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 324146731}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 38763427}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1230542379
 GameObject:
   m_ObjectHideFlags: 0
@@ -80897,6 +81285,24 @@ MonoBehaviour:
     _addEnergyOverTime: 1
     _addEnergyAmount: 1
     _addEnergyCoolDown: 5
+    _useIntoxication: 0
+    _intoxicationPoints: 10
+    _curIntoxicationPoints: 0
+    _reduceIntoxicationOverTime: 1
+    _reduceIntoxicationAmount: 1
+    _reduceIntoxicationCoolDown: 5
+    _useMorale: 0
+    _moralePoints: 10
+    _curMoralePoints: 0
+    _reduceMoraleOverTime: 1
+    _reduceMoraleAmount: 1
+    _reduceMoraleCoolDown: 5
+    _useTemperament: 0
+    _temperamentPoints: 10
+    _curTemperamentPoints: 0
+    _reduceTemperamentOverTime: 1
+    _reduceTemperamentAmount: 1
+    _reduceTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -80976,6 +81382,9 @@ MonoBehaviour:
   _generalSettings:
     _lowHealth: 20
     _lowEnergy: 0
+    _lowIntoxication: 0
+    _lowMorale: 0
+    _lowTemperament: 0
     _closeDistance: 2
     _midDistance: 5
     _farDistance: 10
@@ -81287,6 +81696,22 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.06254876, y: 0.024890244, z: 0.000000059604645}
     m_Extent: {x: 0.5167996, y: 0.2744351, z: 0.7707152}
   m_DirtyAABB: 0
+--- !u!1 &1352484629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 476199765}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 809689455}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1355136708
 GameObject:
   m_ObjectHideFlags: 0
@@ -82479,6 +82904,22 @@ Transform:
   m_Father: {fileID: 733649812}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1371149083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 546815606}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1629597261}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1374015508
 GameObject:
   m_ObjectHideFlags: 0
@@ -83255,6 +83696,22 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.06254879, y: 0.024876505, z: 0.000000059604645}
     m_Extent: {x: 0.5167997, y: 0.27444884, z: 0.7707152}
   m_DirtyAABB: 0
+--- !u!1 &1386221178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 324146731}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 324146732}
+  m_Layer: 0
+  m_Name: GrassE (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1387288240
 GameObject:
   m_ObjectHideFlags: 0
@@ -86223,6 +86680,22 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.06254879, y: 0.024864048, z: 0.000000059604645}
     m_Extent: {x: 0.5167997, y: 0.2744613, z: 0.7707152}
   m_DirtyAABB: 0
+--- !u!1 &1441713019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 554001275}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 554001276}
+  m_Layer: 0
+  m_Name: ChairA (3) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1442484892
 GameObject:
   m_ObjectHideFlags: 0
@@ -92107,6 +92580,24 @@ MonoBehaviour:
     _addEnergyOverTime: 1
     _addEnergyAmount: 1
     _addEnergyCoolDown: 5
+    _useIntoxication: 0
+    _intoxicationPoints: 10
+    _curIntoxicationPoints: 0
+    _reduceIntoxicationOverTime: 1
+    _reduceIntoxicationAmount: 1
+    _reduceIntoxicationCoolDown: 5
+    _useMorale: 0
+    _moralePoints: 10
+    _curMoralePoints: 0
+    _reduceMoraleOverTime: 1
+    _reduceMoraleAmount: 1
+    _reduceMoraleCoolDown: 5
+    _useTemperament: 0
+    _temperamentPoints: 10
+    _curTemperamentPoints: 0
+    _reduceTemperamentOverTime: 1
+    _reduceTemperamentAmount: 1
+    _reduceTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -92186,6 +92677,9 @@ MonoBehaviour:
   _generalSettings:
     _lowHealth: 20
     _lowEnergy: 0
+    _lowIntoxication: 0
+    _lowMorale: 0
+    _lowTemperament: 0
     _closeDistance: 2
     _midDistance: 5
     _farDistance: 10
@@ -94177,236 +94671,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e3d446f7ff644b70a8daaa5525fcf56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isDirty: 0
-  _preset: 1000
-  _profile: {fileID: 0}
-  _profileSync: 1
-  _useFogVolumes: 0
-  _debugPass: 0
-  _showInSceneView: 1
-  _transparencyBlendMode: 0
-  _transparencyBlendPower: 1
-  _transparencyLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  _lightingModel: 0
-  _enableMultipleCameras: 0
-  _computeDepth: 0
-  _computeDepthScope: 0
-  _transparencyCutOff: 0.1
-  _renderBeforeTransparent: 0
-  _sun: {fileID: 0}
-  _timeBetweenTextureUpdates: 0.2
-  _sunCopyColor: 1
-  _density: 0
-  _noiseStrength: 0.6
-  _noiseFinalMultiplier: 1
-  _noiseSparse: 0
-  _distance: 0
-  _maxFogLength: 1000
-  _maxFogLengthFallOff: 0
-  _distanceFallOff: 0
-  _height: 6
-  _heightFallOff: 0.6
-  _deepObscurance: 1
-  _baselineHeight: 0
-  _baselineRelativeToCamera: 0
-  _baselineRelativeToCameraDelay: 0
-  _noiseScale: 1
-  _alpha: 1
-  _color: {r: 0.89, g: 0.89, b: 0.89, a: 1}
-  _specularColor: {r: 1, g: 1, b: 0.8, a: 1}
-  _specularThreshold: 0.6
-  _specularIntensity: 0.1
-  _lightDirection: {x: 1, y: 0, z: -1}
-  _lightIntensity: 0.12
-  _lightColor: {r: 1, g: 1, b: 1, a: 1}
-  _updateTextureSpread: 1
-  _speed: 0.01
-  _windDirection: {x: -1, y: 0, z: 0}
-  _useRealTime: 0
-  _skyColor: {r: 0.89, g: 0.89, b: 0.89, a: 0.8}
-  _skyHaze: 15
-  _skySpeed: 0.3
-  _skyNoiseStrength: 0.1
-  _skyAlpha: 0.8
-  _skyDepth: 0.999
-  _character: {fileID: 0}
-  _fogVoidTopology: 0
-  _fogVoidFallOff: 1
-  _fogVoidRadius: 0
-  _fogVoidPosition: {x: 0, y: 0, z: 0}
-  _fogVoidDepth: 0
-  _fogVoidHeight: 0
-  _fogVoidInverted: 0
-  _fogAreaShowGizmos: 1
-  _fogAreaCenter: {fileID: 0}
-  _fogAreaFallOff: 1
-  _fogAreaFollowMode: 0
-  _fogAreaTopology: 1
-  _fogAreaRadius: 0
-  _fogAreaPosition: {x: 0, y: 0, z: 0}
-  _fogAreaDepth: 0
-  _fogAreaHeight: 0
-  _fogAreaSortingMode: 0
-  _fogAreaRenderOrder: 1
-  pointLightParams:
-  - light: {fileID: 0}
-    lightParams: {fileID: 0}
-    range: 0
-    rangeMultiplier: 1
-    intensity: 1
-    intensityMultiplier: 1
-    position: {x: 0, y: 0, z: 0}
-    color: {r: 1, g: 1, b: 0, a: 1}
-  - light: {fileID: 0}
-    lightParams: {fileID: 0}
-    range: 0
-    rangeMultiplier: 1
-    intensity: 1
-    intensityMultiplier: 1
-    position: {x: 0, y: 0, z: 0}
-    color: {r: 1, g: 1, b: 0, a: 1}
-  - light: {fileID: 0}
-    lightParams: {fileID: 0}
-    range: 0
-    rangeMultiplier: 1
-    intensity: 1
-    intensityMultiplier: 1
-    position: {x: 0, y: 0, z: 0}
-    color: {r: 1, g: 1, b: 0, a: 1}
-  - light: {fileID: 0}
-    lightParams: {fileID: 0}
-    range: 0
-    rangeMultiplier: 1
-    intensity: 1
-    intensityMultiplier: 1
-    position: {x: 0, y: 0, z: 0}
-    color: {r: 1, g: 1, b: 0, a: 1}
-  - light: {fileID: 0}
-    lightParams: {fileID: 0}
-    range: 0
-    rangeMultiplier: 1
-    intensity: 1
-    intensityMultiplier: 1
-    position: {x: 0, y: 0, z: 0}
-    color: {r: 1, g: 1, b: 0, a: 1}
-  - light: {fileID: 0}
-    lightParams: {fileID: 0}
-    range: 0
-    rangeMultiplier: 1
-    intensity: 1
-    intensityMultiplier: 1
-    position: {x: 0, y: 0, z: 0}
-    color: {r: 1, g: 1, b: 0, a: 1}
-  pointLightDataMigrated: 1
-  _pointLights:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  _pointLightRanges:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  _pointLightIntensities:
-  - 1
-  - 1
-  - 1
-  - 1
-  - 1
-  - 1
-  _pointLightIntensitiesMultiplier:
-  - 1
-  - 1
-  - 1
-  - 1
-  - 1
-  - 1
-  _pointLightPositions:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  _pointLightColors:
-  - {r: 1, g: 1, b: 0, a: 1}
-  - {r: 1, g: 1, b: 0, a: 1}
-  - {r: 1, g: 1, b: 0, a: 1}
-  - {r: 1, g: 1, b: 0, a: 1}
-  - {r: 1, g: 1, b: 0, a: 1}
-  - {r: 1, g: 1, b: 0, a: 1}
-  _pointLightTrackingAuto: 0
-  _pointLightTrackingPivot: {fileID: 1595151854}
-  _pointLightTrackingCount: 0
-  _pointLightTrackingCheckInterval: 1
-  _pointLightTrackingNewLightsCheckInterval: 3
-  _pointLightInscattering: 1
-  _pointLightIntensity: 1
-  _pointLightInsideAtten: 0
-  _downsampling: 1
-  _forceComposition: 0
-  _edgeImprove: 0
-  _edgeThreshold: 0.0005
-  _stepping: 8
-  _steppingNear: 0
-  _dithering: 0
-  _ditherStrength: 0.75
-  _jitterStrength: 0.5
-  _lightScatteringEnabled: 0
-  _lightScatteringDiffusion: 0.7
-  _lightScatteringSpread: 0.686
-  _lightScatteringSamples: 16
-  _lightScatteringWeight: 1.9
-  _lightScatteringIllumination: 18
-  _lightScatteringDecay: 0.986
-  _lightScatteringExposure: 0
-  _lightScatteringJittering: 0.5
-  _lightScatteringBlurDownscale: 1
-  _fogBlur: 0
-  _fogBlurDepth: 0.05
-  _sunShadows: 0
-  _sunShadowsLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  _sunShadowsStrength: 0.5
-  _sunShadowsBias: 0.1
-  _sunShadowsJitterStrength: 0.1
-  _sunShadowsResolution: 2
-  _sunShadowsMaxDistance: 200
-  _sunShadowsBakeMode: 1
-  _sunShadowsRefreshInterval: 0
-  _sunShadowsCancellation: 0
-  _turbulenceStrength: 0
-  _useXYPlane: 0
-  _useSinglePassStereoRenderingMatrix: 0
-  _spsrBehaviour: 0
-  _reduceFlickerBigWorlds: 0
-  _enableMask: 0
-  _maskLayer:
-    serializedVersion: 2
-    m_Bits: 8388608
-  _maskDownsampling: 1
-  fogRenderer: {fileID: 1595151856}
-  _fogOfWarEnabled: 0
-  _fogOfWarCenter: {x: 0, y: 0, z: 0}
-  _fogOfWarSize: {x: 1024, y: 0, z: 1024}
-  _fogOfWarTextureSize: 256
-  _fogOfWarRestoreDelay: 0
-  _fogOfWarRestoreDuration: 2
-  _fogOfWarSmoothness: 1
-  _maskEditorEnabled: 0
-  _maskBrushMode: 1
-  _maskBrushWidth: 20
-  _maskBrushFuzziness: 0.5
-  _maskBrushOpacity: 0.15
-  _fogOfWarTexture: {fileID: 0}
 --- !u!114 &1595151857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95949,12 +96213,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624078019}
   m_Mesh: {fileID: 4300222, guid: 8ed86b8ef3190a9429964c02eaa4f31c, type: 3}
---- !u!4 &1629597261 stripped
+--- !u!4 &1629597261
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 402220, guid: 17de3c1426f928b4e97bb2feeeb4d11e,
     type: 3}
   m_PrefabInstance: {fileID: 546815606}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371149083}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 546815607}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1630829156
 GameObject:
   m_ObjectHideFlags: 0
@@ -97216,6 +97489,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1649697892}
   m_Mesh: {fileID: 4300022, guid: 8ed86b8ef3190a9429964c02eaa4f31c, type: 3}
+--- !u!1 &1652129527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1774946426}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1690072744}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1652352852
 GameObject:
   m_ObjectHideFlags: 0
@@ -97701,6 +97990,24 @@ MonoBehaviour:
     _addEnergyOverTime: 1
     _addEnergyAmount: 1
     _addEnergyCoolDown: 5
+    _useIntoxication: 0
+    _intoxicationPoints: 10
+    _curIntoxicationPoints: 0
+    _reduceIntoxicationOverTime: 1
+    _reduceIntoxicationAmount: 1
+    _reduceIntoxicationCoolDown: 5
+    _useMorale: 0
+    _moralePoints: 10
+    _curMoralePoints: 0
+    _reduceMoraleOverTime: 1
+    _reduceMoraleAmount: 1
+    _reduceMoraleCoolDown: 5
+    _useTemperament: 0
+    _temperamentPoints: 10
+    _curTemperamentPoints: 0
+    _reduceTemperamentOverTime: 1
+    _reduceTemperamentAmount: 1
+    _reduceTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -97780,6 +98087,9 @@ MonoBehaviour:
   _generalSettings:
     _lowHealth: 30
     _lowEnergy: 30
+    _lowIntoxication: 0
+    _lowMorale: 0
+    _lowTemperament: 0
     _closeDistance: 2
     _midDistance: 5
     _farDistance: 10
@@ -98217,6 +98527,24 @@ MonoBehaviour:
     _addEnergyOverTime: 1
     _addEnergyAmount: 10
     _addEnergyCoolDown: 2
+    _useIntoxication: 0
+    _intoxicationPoints: 10
+    _curIntoxicationPoints: 0
+    _reduceIntoxicationOverTime: 1
+    _reduceIntoxicationAmount: 1
+    _reduceIntoxicationCoolDown: 5
+    _useMorale: 0
+    _moralePoints: 10
+    _curMoralePoints: 0
+    _reduceMoraleOverTime: 1
+    _reduceMoraleAmount: 1
+    _reduceMoraleCoolDown: 5
+    _useTemperament: 0
+    _temperamentPoints: 10
+    _curTemperamentPoints: 0
+    _reduceTemperamentOverTime: 1
+    _reduceTemperamentAmount: 1
+    _reduceTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -98296,6 +98624,9 @@ MonoBehaviour:
   _generalSettings:
     _lowHealth: 30
     _lowEnergy: 30
+    _lowIntoxication: 0
+    _lowMorale: 0
+    _lowTemperament: 0
     _closeDistance: 2
     _midDistance: 5
     _farDistance: 10
@@ -98371,7 +98702,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 862a4c74811e45c458971074b1daec65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimeDelayToReactivate: 0.5
 --- !u!114 &1659318863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100727,12 +101057,21 @@ Transform:
   m_Father: {fileID: 646709302}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1690072744 stripped
+--- !u!4 &1690072744
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 487244, guid: 24a898469d9c2394bb863db56a74b3d6,
     type: 3}
   m_PrefabInstance: {fileID: 1774946426}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652129527}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1774946427}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1690656075
 GameObject:
   m_ObjectHideFlags: 0
@@ -102251,6 +102590,22 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.06256351, y: 0.006282419, z: 0.000000059604645}
     m_Extent: {x: 0.51681435, y: 0.29304296, z: 0.7707152}
   m_DirtyAABB: 0
+--- !u!1 &1716271194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1774946426}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1774946427}
+  m_Layer: 0
+  m_Name: ChairA (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1717551805
 GameObject:
   m_ObjectHideFlags: 0
@@ -106073,10 +106428,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 803361851}
     m_Modifications:
-    - target: {fileID: 142472, guid: 24a898469d9c2394bb863db56a74b3d6, type: 3}
-      propertyPath: m_Name
-      value: ChairA
-      objectReference: {fileID: 0}
     - target: {fileID: 487244, guid: 24a898469d9c2394bb863db56a74b3d6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.1475096
@@ -106121,8 +106472,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 142472, guid: 24a898469d9c2394bb863db56a74b3d6, type: 3}
+      propertyPath: m_Name
+      value: ChairA
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24a898469d9c2394bb863db56a74b3d6, type: 3}
+--- !u!4 &1774946427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1774946426}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716271194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1690072744}
+  m_Father: {fileID: 803361851}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1777205152
 GameObject:
   m_ObjectHideFlags: 0
@@ -126481,6 +126851,24 @@ MonoBehaviour:
     _addEnergyOverTime: 1
     _addEnergyAmount: 1
     _addEnergyCoolDown: 5
+    _useIntoxication: 0
+    _intoxicationPoints: 10
+    _curIntoxicationPoints: 0
+    _reduceIntoxicationOverTime: 1
+    _reduceIntoxicationAmount: 1
+    _reduceIntoxicationCoolDown: 5
+    _useMorale: 0
+    _moralePoints: 10
+    _curMoralePoints: 0
+    _reduceMoraleOverTime: 1
+    _reduceMoraleAmount: 1
+    _reduceMoraleCoolDown: 5
+    _useTemperament: 0
+    _temperamentPoints: 10
+    _curTemperamentPoints: 0
+    _reduceTemperamentOverTime: 1
+    _reduceTemperamentAmount: 1
+    _reduceTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -126560,6 +126948,9 @@ MonoBehaviour:
   _generalSettings:
     _lowHealth: 20
     _lowEnergy: 0
+    _lowIntoxication: 0
+    _lowMorale: 0
+    _lowTemperament: 0
     _closeDistance: 2
     _midDistance: 5
     _farDistance: 10
