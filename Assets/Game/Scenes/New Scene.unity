@@ -3532,7 +3532,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &126756360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3689,14 +3689,14 @@ MonoBehaviour:
     _healthPoints: 100
     _curHealthPoints: 0
     _healOverTime: 0
-    _healAmount: -25
+    _healAmount: 1
     _healCoolDown: 1
     _useEnergy: 1
     _energyPoints: 100
     _curEnergyPoints: 0
     _addEnergyOverTime: 1
-    _addEnergyAmount: 10
-    _addEnergyCoolDown: 5
+    _addEnergyAmount: 5
+    _addEnergyCoolDown: 1
     _useIntoxication: 0
     _intoxicationPoints: 10
     _curIntoxicationPoints: 0
@@ -3792,10 +3792,10 @@ MonoBehaviour:
     _initFromChildren: 0
     _dropRadius: 1
   _generalSettings:
-    _lowHealth: 50
+    _lowHealth: 25
     _lowEnergy: 25
     _lowIntoxication: 0
-    _lowMorale: 10
+    _lowMorale: 25
     _lowTemperament: 0
     _closeDistance: 2
     _midDistance: 5
@@ -26509,7 +26509,7 @@ MonoBehaviour:
     _energyPoints: 100
     _curEnergyPoints: 0
     _addEnergyOverTime: 1
-    _addEnergyAmount: 10
+    _addEnergyAmount: 5
     _addEnergyCoolDown: 1
     _useIntoxication: 0
     _intoxicationPoints: 10
@@ -26606,10 +26606,10 @@ MonoBehaviour:
     _initFromChildren: 0
     _dropRadius: 1
   _generalSettings:
-    _lowHealth: 40
-    _lowEnergy: 10
+    _lowHealth: 25
+    _lowEnergy: 25
     _lowIntoxication: 0
-    _lowMorale: 10
+    _lowMorale: 0
     _lowTemperament: 0
     _closeDistance: 2
     _midDistance: 5
@@ -34863,7 +34863,7 @@ MonoBehaviour:
     _curEnergyPoints: 0
     _addEnergyOverTime: 1
     _addEnergyAmount: 5
-    _addEnergyCoolDown: 5
+    _addEnergyCoolDown: 1
     _useIntoxication: 0
     _intoxicationPoints: 10
     _curIntoxicationPoints: 0
@@ -34960,10 +34960,10 @@ MonoBehaviour:
     _initFromChildren: 0
     _dropRadius: 1
   _generalSettings:
-    _lowHealth: 10
-    _lowEnergy: 40
+    _lowHealth: 25
+    _lowEnergy: 25
     _lowIntoxication: 0
-    _lowMorale: 10
+    _lowMorale: 25
     _lowTemperament: 0
     _closeDistance: 2
     _midDistance: 5
@@ -44134,8 +44134,8 @@ MonoBehaviour:
     _energyPoints: 100
     _curEnergyPoints: 0
     _addEnergyOverTime: 1
-    _addEnergyAmount: 15
-    _addEnergyCoolDown: 5
+    _addEnergyAmount: 5
+    _addEnergyCoolDown: 1
     _useIntoxication: 0
     _intoxicationPoints: 10
     _curIntoxicationPoints: 0
@@ -44144,7 +44144,7 @@ MonoBehaviour:
     _addIntoxicationCoolDown: 5
     _useMorale: 1
     _moralePoints: 100
-    _curMoralePoints: 100
+    _curMoralePoints: 50
     _addMoraleOverTime: 1
     _addMoraleAmount: 1
     _addMoraleCoolDown: 5
@@ -44231,10 +44231,10 @@ MonoBehaviour:
     _initFromChildren: 0
     _dropRadius: 1
   _generalSettings:
-    _lowHealth: 30
-    _lowEnergy: 10
+    _lowHealth: 25
+    _lowEnergy: 25
     _lowIntoxication: 0
-    _lowMorale: 10
+    _lowMorale: 0
     _lowTemperament: 0
     _closeDistance: 2
     _midDistance: 5

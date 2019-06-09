@@ -20,10 +20,10 @@ MonoBehaviour:
   _projectilePrefab: {fileID: 0}
   _range: 5
   _fieldOfView: 0
-  _loadTime: 0
+  _loadTime: 0.1
   _invocationDuration: 0
   _invocationPing: 0
-  _effectDuration: 0
+  _effectDuration: 2
   _effectPing: 0
   _coolDown: 1
   _minPower: 0
