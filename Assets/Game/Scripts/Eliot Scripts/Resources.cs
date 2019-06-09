@@ -586,28 +586,6 @@ namespace Eliot.AgentComponents
             AddIntoxication(UnityEngine.Random.Range(minValue, maxValue));
         }
 
-        ///// <summary>
-        ///// Reduce Agent's Intoxication.
-        ///// </summary>
-        ///// <param name="value"></param>
-        //public void ReduceIntoxication(int value)
-        //{
-        //    if (!_useIntoxication) return;
-        //    _curIntoxicationPoints = Mathf.Min(_intoxicationPoints, _curIntoxicationPoints - value);
-        //}
-
-        ///// <summary>
-        ///// Reduce random amount of Agent's Intoxication in specified range.
-        ///// </summary>
-        ///// <param name="minValue"></param>
-        ///// <param name="maxValue"></param>
-        //public void ReduceIntoxication(int minValue, int maxValue)
-        //{
-        //    if (!_useIntoxication) return;
-        //    ReduceIntoxication(UnityEngine.Random.Range(minValue, maxValue));
-        //}
-
-
         /// <summary>
         /// Use Morale if possible.
         /// </summary>
@@ -650,28 +628,6 @@ namespace Eliot.AgentComponents
             if (!_useMorale) return;
             AddMorale(UnityEngine.Random.Range(minValue, maxValue));
         }
-
-        ///// <summary>
-        ///// Reduce Agent's Morale.
-        ///// </summary>
-        ///// <param name="value"></param>
-        //public void ReduceMorale(int value)
-        //{
-        //    if (!_useMorale) return;
-        //    _curMoralePoints = Mathf.Min(_moralePoints, _curMoralePoints - value);
-        //}
-
-        ///// <summary>
-        ///// Reduce random amount of Agent's Morale in specified range.
-        ///// </summary>
-        ///// <param name="minValue"></param>
-        ///// <param name="maxValue"></param>
-        //public void ReduceMorale(int minValue, int maxValue)
-        //{
-        //    if (!_useMorale) return;
-        //    ReduceMorale(UnityEngine.Random.Range(minValue, maxValue));
-        //}
-
 
 
         /// <summary>
@@ -716,27 +672,6 @@ namespace Eliot.AgentComponents
             if (!_useTemperament) return;
             AddTemperament(UnityEngine.Random.Range(minValue, maxValue));
         }
-
-        ///// <summary>
-        ///// Reduce Agent's Temperament.
-        ///// </summary>
-        ///// <param name="value"></param>
-        //public void ReduceTemperament(int value)
-        //{
-        //    if (!_useTemperament) return;
-        //    _curTemperamentPoints = Mathf.Min(_temperamentPoints, _curTemperamentPoints - value);
-        //}
-
-        ///// <summary>
-        ///// Reduce random amount of Agent's Temperament in specified range.
-        ///// </summary>
-        ///// <param name="minValue"></param>
-        ///// <param name="maxValue"></param>
-        //public void ReduceTemperament(int minValue, int maxValue)
-        //{
-        //    if (!_useTemperament) return;
-        //    ReduceTemperament(UnityEngine.Random.Range(minValue, maxValue));
-        //}
 
         /// <summary>
         /// Update the self-replenishment properties of Agent's Resources.
