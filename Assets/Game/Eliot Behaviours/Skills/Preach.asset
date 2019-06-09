@@ -20,18 +20,18 @@ MonoBehaviour:
   _projectilePrefab: {fileID: 0}
   _range: 5
   _fieldOfView: 0
-  _loadTime: 0.1
+  _loadTime: 1
   _invocationDuration: 0
   _invocationPing: 0
-  _effectDuration: 2
+  _effectDuration: 0
   _effectPing: 0
   _coolDown: 1
   _minPower: 0
   _maxPower: 100
   _energyCost: 50
   _pushPower: 0
-  _interruptTarget: 0
-  _freezeMotion: 0
+  _interruptTarget: 1
+  _freezeMotion: 1
   _affectHealth: 0
   _healthAffectionWay: 0
   _affectEnergy: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
   _additionalEffects: []
   _loadingAnimation: {fileID: 0}
   _executingAnimation: {fileID: 0}
-  _loadingMessage: 
+  _loadingMessage: InteractB
   _executingMessage: 
   _onApplyFX: {fileID: 0}
   _onApplyFXOnTarget: {fileID: 0}

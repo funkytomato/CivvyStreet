@@ -51,7 +51,7 @@ MonoBehaviour:
   _additionalEffects: []
   _loadingAnimation: {fileID: 0}
   _executingAnimation: {fileID: 0}
-  _loadingMessage: 
+  _loadingMessage: InteractB
   _executingMessage: 
   _onApplyFX: {fileID: 0}
   _onApplyFXOnTarget: {fileID: 0}
