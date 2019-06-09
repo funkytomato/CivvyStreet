@@ -36,8 +36,14 @@ MonoBehaviour:
   _healthAffectionWay: 1
   _affectEnergy: 0
   _energyAffectionWay: 0
+  _affectIntoxication: 0
+  _intoxicationAffectionWay: 0
+  _affectMorale: 0
+  _moraleAffectionWay: 0
+  _affectTemperament: 0
+  _temperamentAffectionWay: 0
   _setStatus: 1
-  _status: 1
+  _status: 2
   _statusDuration: 1
   _setPositionAsTarget: 0
   _makeNoise: 0

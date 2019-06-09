@@ -101,7 +101,7 @@ namespace Eliot.AgentComponents
         /// </summary>
         public bool UsesIntoxication
         {
-            get { return _useHealth; }
+            get { return _useIntoxication; }
         }
 
         /// <summary>
@@ -162,21 +162,21 @@ namespace Eliot.AgentComponents
         [Header("Intoxication")] [SerializeField] private bool _useIntoxication;
         [SerializeField] private int _intoxicationPoints = 10;
         [SerializeField] private int _curIntoxicationPoints;
-        [SerializeField] private bool _reduceIntoxicationOverTime = true;
-        [SerializeField] private int _reduceIntoxicationAmount = 1;
-        [SerializeField] private float _reduceIntoxicationCoolDown = 5;
+        [SerializeField] private bool _addIntoxicationOverTime = true;
+        [SerializeField] private int _addIntoxicationAmount = 1;
+        [SerializeField] private float _addIntoxicationCoolDown = 5;
         [Header("Morale")] [SerializeField] private bool _useMorale;
         [SerializeField] private int _moralePoints = 10;
         [SerializeField] private int _curMoralePoints;
-        [SerializeField] private bool _reduceMoraleOverTime = true;
-        [SerializeField] private int _reduceMoraleAmount = 1;
-        [SerializeField] private float _reduceMoraleCoolDown = 5;
+        [SerializeField] private bool _addMoraleOverTime = true;
+        [SerializeField] private int _addMoraleAmount = 1;
+        [SerializeField] private float _addMoraleCoolDown = 5;
         [Header("Temperament")] [SerializeField] private bool _useTemperament;
         [SerializeField] private int _temperamentPoints = 10;
         [SerializeField] private int _curTemperamentPoints;
-        [SerializeField] private bool _reduceTemperamentOverTime = true;
-        [SerializeField] private int _reduceTemperamentAmount = 1;
-        [SerializeField] private float _reduceTemperamentCoolDown = 5;
+        [SerializeField] private bool _addTemperamentOverTime = true;
+        [SerializeField] private int _addTemperamentAmount = 1;
+        [SerializeField] private float _addTemperamentCoolDown = 5;
         [Space]
         [Header("Other")] 
 		[SerializeField] private List<AudioClip> _onDamageSounds;
@@ -269,8 +269,14 @@ namespace Eliot.AgentComponents
 
 			_agent.GetAudioSource().PlayRandomClip(_onDamageSounds);
 			
+
 			_curHealthPoints = Mathf.Max(0, _curHealthPoints - value);
-			if (_lockTime > 0) _agent.Motion.Lock();
+            if (_curHealthPoints < 0)
+            {
+                _curHealthPoints = 0;
+            }
+
+            if (_lockTime > 0) _agent.Motion.Lock();
 			if (_alive && _curHealthPoints <= 0)
 			{
 				_alive = false;
@@ -466,7 +472,8 @@ namespace Eliot.AgentComponents
 		{
 			if (!_useHealth) return;
 			_curHealthPoints = Mathf.Min(_healthPoints, _curHealthPoints + value);
-		}
+            _curHealthPoints = Mathf.Clamp(_curHealthPoints, 0, 100);
+        }
 
 		/// <summary>
 		/// Replenish Agent's health for a random value in specified range.
@@ -499,7 +506,8 @@ namespace Eliot.AgentComponents
 		{
 			if (!_useEnergy) return;
 			if (_curEnergyPoints - value >= 0) _curEnergyPoints = Mathf.Max(0, _curEnergyPoints - value);
-		}
+
+        }
 
 		/// <summary>
 		/// Use random amount of energy in specified range.
@@ -520,7 +528,8 @@ namespace Eliot.AgentComponents
 		{
 			if (!_useEnergy) return;
 			_curEnergyPoints = Mathf.Min(_energyPoints, _curEnergyPoints + value);
-		}
+            _curEnergyPoints = Mathf.Clamp(_curEnergyPoints, 0, 100);
+        }
 
 		/// <summary>
 		/// Replenish random amount of Agent's energy in specified range.
@@ -532,8 +541,6 @@ namespace Eliot.AgentComponents
 			if (!_useEnergy) return;
 			AddEnergy(UnityEngine.Random.Range(minValue, maxValue));
 		}
-
-
 
 
         /// <summary>
@@ -565,6 +572,7 @@ namespace Eliot.AgentComponents
         {
             if (!_useIntoxication) return;
             _curIntoxicationPoints = Mathf.Min(_intoxicationPoints, _curIntoxicationPoints + value);
+            _curIntoxicationPoints = Mathf.Clamp(_curIntoxicationPoints, 0, 100);
         }
 
         /// <summary>
@@ -578,26 +586,26 @@ namespace Eliot.AgentComponents
             AddIntoxication(UnityEngine.Random.Range(minValue, maxValue));
         }
 
-        /// <summary>
-        /// Reduce Agent's Intoxication.
-        /// </summary>
-        /// <param name="value"></param>
-        public void ReduceIntoxication(int value)
-        {
-            if (!_useIntoxication) return;
-            _curIntoxicationPoints = Mathf.Min(_intoxicationPoints, _curIntoxicationPoints - value);
-        }
+        ///// <summary>
+        ///// Reduce Agent's Intoxication.
+        ///// </summary>
+        ///// <param name="value"></param>
+        //public void ReduceIntoxication(int value)
+        //{
+        //    if (!_useIntoxication) return;
+        //    _curIntoxicationPoints = Mathf.Min(_intoxicationPoints, _curIntoxicationPoints - value);
+        //}
 
-        /// <summary>
-        /// Reduce random amount of Agent's Intoxication in specified range.
-        /// </summary>
-        /// <param name="minValue"></param>
-        /// <param name="maxValue"></param>
-        public void ReduceIntoxication(int minValue, int maxValue)
-        {
-            if (!_useIntoxication) return;
-            ReduceIntoxication(UnityEngine.Random.Range(minValue, maxValue));
-        }
+        ///// <summary>
+        ///// Reduce random amount of Agent's Intoxication in specified range.
+        ///// </summary>
+        ///// <param name="minValue"></param>
+        ///// <param name="maxValue"></param>
+        //public void ReduceIntoxication(int minValue, int maxValue)
+        //{
+        //    if (!_useIntoxication) return;
+        //    ReduceIntoxication(UnityEngine.Random.Range(minValue, maxValue));
+        //}
 
 
         /// <summary>
@@ -607,7 +615,7 @@ namespace Eliot.AgentComponents
         public void UseMorale(int value)
         {
             if (!_useMorale) return;
-            if (_curMoralePoints - value >= 0) _curMoralePoints = Mathf.Max(0, _curMoralePoints - value);
+            if (_curMoralePoints - value >= 0) _curMoralePoints = Mathf.Min(0, _curMoralePoints - value);
         }
 
         /// <summary>
@@ -629,6 +637,7 @@ namespace Eliot.AgentComponents
         {
             if (!_useMorale) return;
             _curMoralePoints = Mathf.Min(_moralePoints, _curMoralePoints + value);
+            _curMoralePoints = Mathf.Clamp(_curMoralePoints, 0, 100);
         }
 
         /// <summary>
@@ -642,26 +651,26 @@ namespace Eliot.AgentComponents
             AddMorale(UnityEngine.Random.Range(minValue, maxValue));
         }
 
-        /// <summary>
-        /// Reduce Agent's Morale.
-        /// </summary>
-        /// <param name="value"></param>
-        public void ReduceMorale(int value)
-        {
-            if (!_useMorale) return;
-            _curMoralePoints = Mathf.Min(_moralePoints, _curMoralePoints - value);
-        }
+        ///// <summary>
+        ///// Reduce Agent's Morale.
+        ///// </summary>
+        ///// <param name="value"></param>
+        //public void ReduceMorale(int value)
+        //{
+        //    if (!_useMorale) return;
+        //    _curMoralePoints = Mathf.Min(_moralePoints, _curMoralePoints - value);
+        //}
 
-        /// <summary>
-        /// Reduce random amount of Agent's Morale in specified range.
-        /// </summary>
-        /// <param name="minValue"></param>
-        /// <param name="maxValue"></param>
-        public void ReduceMorale(int minValue, int maxValue)
-        {
-            if (!_useMorale) return;
-            ReduceMorale(UnityEngine.Random.Range(minValue, maxValue));
-        }
+        ///// <summary>
+        ///// Reduce random amount of Agent's Morale in specified range.
+        ///// </summary>
+        ///// <param name="minValue"></param>
+        ///// <param name="maxValue"></param>
+        //public void ReduceMorale(int minValue, int maxValue)
+        //{
+        //    if (!_useMorale) return;
+        //    ReduceMorale(UnityEngine.Random.Range(minValue, maxValue));
+        //}
 
 
 
@@ -694,6 +703,7 @@ namespace Eliot.AgentComponents
         {
             if (!_useTemperament) return;
             _curTemperamentPoints = Mathf.Min(_temperamentPoints, _curTemperamentPoints + value);
+            _curTemperamentPoints = Mathf.Clamp(_curTemperamentPoints, 0, 100);
         }
 
         /// <summary>
@@ -707,26 +717,26 @@ namespace Eliot.AgentComponents
             AddTemperament(UnityEngine.Random.Range(minValue, maxValue));
         }
 
-        /// <summary>
-        /// Reduce Agent's Temperament.
-        /// </summary>
-        /// <param name="value"></param>
-        public void ReduceTemperament(int value)
-        {
-            if (!_useTemperament) return;
-            _curTemperamentPoints = Mathf.Min(_temperamentPoints, _curTemperamentPoints - value);
-        }
+        ///// <summary>
+        ///// Reduce Agent's Temperament.
+        ///// </summary>
+        ///// <param name="value"></param>
+        //public void ReduceTemperament(int value)
+        //{
+        //    if (!_useTemperament) return;
+        //    _curTemperamentPoints = Mathf.Min(_temperamentPoints, _curTemperamentPoints - value);
+        //}
 
-        /// <summary>
-        /// Reduce random amount of Agent's Temperament in specified range.
-        /// </summary>
-        /// <param name="minValue"></param>
-        /// <param name="maxValue"></param>
-        public void ReduceTemperament(int minValue, int maxValue)
-        {
-            if (!_useTemperament) return;
-            ReduceTemperament(UnityEngine.Random.Range(minValue, maxValue));
-        }
+        ///// <summary>
+        ///// Reduce random amount of Agent's Temperament in specified range.
+        ///// </summary>
+        ///// <param name="minValue"></param>
+        ///// <param name="maxValue"></param>
+        //public void ReduceTemperament(int minValue, int maxValue)
+        //{
+        //    if (!_useTemperament) return;
+        //    ReduceTemperament(UnityEngine.Random.Range(minValue, maxValue));
+        //}
 
         /// <summary>
         /// Update the self-replenishment properties of Agent's Resources.
@@ -745,10 +755,22 @@ namespace Eliot.AgentComponents
 				_lastTimeAddedEnergy = Time.time;
 			}
 
-            if (_useIntoxication && _reduceIntoxicationOverTime && Time.time >= _lastTimeReducedIntoxication + _reduceIntoxicationCoolDown)
+            if (_useIntoxication && _addIntoxicationOverTime && Time.time >= _lastTimeReducedIntoxication + _addIntoxicationCoolDown)
             {
-                ReduceIntoxication(_reduceIntoxicationAmount);
+                AddIntoxication(_addIntoxicationAmount);
                 _lastTimeReducedIntoxication = Time.time;
+            }
+
+            if (_useMorale && _addMoraleOverTime && Time.time >= _lastTimeReducedMorale + _addMoraleCoolDown)
+            {
+                AddMorale(_addMoraleAmount);
+                _lastTimeReducedMorale = Time.time;
+            }
+
+            if (_useTemperament && _addTemperamentOverTime && Time.time >= _lastTimeReducedTemperament + _addTemperamentCoolDown)
+            {
+                AddTemperament(_addTemperamentAmount);
+                _lastTimeReducedTemperament = Time.time;
             }
         }
 

@@ -51,7 +51,8 @@ namespace Eliot.AgentComponents.Editor
 			_agent = target as Agent;
 			if (_agent == null) return;
 
-			OnSceneGUI_Resources();
+            OnSceneGUI_Status();
+            OnSceneGUI_Resources();
 			OnSceneGUI_Perception();
 			OnSceneGUI_Motion();
 			OnSceneGUI_Settings();
@@ -169,10 +170,22 @@ namespace Eliot.AgentComponents.Editor
 			Drawlabel(stateLabel, Color.white, 50f);
 		}
 
-		/// <summary>
-		/// Draw GUI for Settings.
-		/// </summary>
-		private void OnSceneGUI_Settings()
+        /// <summary>
+        /// Draw GUI for Status.
+        /// </summary>
+        private void OnSceneGUI_Status()
+        {
+            var status = _agent.Status;
+            //if (!status.Debug) return;
+
+            var stateLabel = "Status state: " + status;
+            Drawlabel(stateLabel, Color.white, 115f);
+        }
+
+        /// <summary>
+        /// Draw GUI for Settings.
+        /// </summary>
+        private void OnSceneGUI_Settings()
 		{
 			var stats = _agent.GeneralSettings;
 			if (!stats.Debug) return;

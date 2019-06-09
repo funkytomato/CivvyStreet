@@ -27,8 +27,8 @@ MonoBehaviour:
   _effectPing: 0
   _coolDown: 1
   _minPower: 0
-  _maxPower: 0
-  _energyCost: 10
+  _maxPower: 100
+  _energyCost: 50
   _pushPower: 0
   _interruptTarget: 0
   _freezeMotion: 0
@@ -36,6 +36,12 @@ MonoBehaviour:
   _healthAffectionWay: 0
   _affectEnergy: 0
   _energyAffectionWay: 0
+  _affectIntoxication: 0
+  _intoxicationAffectionWay: 0
+  _affectMorale: 1
+  _moraleAffectionWay: 0
+  _affectTemperament: 0
+  _temperamentAffectionWay: 0
   _setStatus: 0
   _status: 0
   _statusDuration: 0
