@@ -9790,21 +9790,21 @@ MonoBehaviour:
     _useIntoxication: 0
     _intoxicationPoints: 10
     _curIntoxicationPoints: 0
-    _reduceIntoxicationOverTime: 1
-    _reduceIntoxicationAmount: 1
-    _reduceIntoxicationCoolDown: 5
+    _addIntoxicationOverTime: 1
+    _addIntoxicationAmount: 1
+    _addIntoxicationCoolDown: 5
     _useMorale: 0
     _moralePoints: 10
     _curMoralePoints: 0
-    _reduceMoraleOverTime: 1
-    _reduceMoraleAmount: 1
-    _reduceMoraleCoolDown: 5
+    _addMoraleOverTime: 1
+    _addMoraleAmount: 1
+    _addMoraleCoolDown: 5
     _useTemperament: 0
     _temperamentPoints: 10
     _curTemperamentPoints: 0
-    _reduceTemperamentOverTime: 1
-    _reduceTemperamentAmount: 1
-    _reduceTemperamentCoolDown: 5
+    _addTemperamentOverTime: 1
+    _addTemperamentAmount: 1
+    _addTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -9942,7 +9942,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 190854710}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3, y: -3.2547054, z: 2.13}
+  m_LocalPosition: {x: -24.55, y: -3.2547054, z: 2.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1485134264}
@@ -27435,7 +27435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inert: 0
-  _behaviour: {fileID: 11400000, guid: c61631b810c1b4cdf9d5c3e944ef77c0, type: 2}
+  _behaviour: {fileID: 0}
   _ping: 0
   _waypoints: {fileID: 0}
   _applyChangesOnWaypoints: 0
@@ -27455,21 +27455,21 @@ MonoBehaviour:
     _useIntoxication: 0
     _intoxicationPoints: 10
     _curIntoxicationPoints: 0
-    _reduceIntoxicationOverTime: 1
-    _reduceIntoxicationAmount: 1
-    _reduceIntoxicationCoolDown: 5
+    _addIntoxicationOverTime: 1
+    _addIntoxicationAmount: 1
+    _addIntoxicationCoolDown: 5
     _useMorale: 0
     _moralePoints: 10
     _curMoralePoints: 0
-    _reduceMoraleOverTime: 1
-    _reduceMoraleAmount: 1
-    _reduceMoraleCoolDown: 5
+    _addMoraleOverTime: 1
+    _addMoraleAmount: 1
+    _addMoraleCoolDown: 5
     _useTemperament: 0
     _temperamentPoints: 10
     _curTemperamentPoints: 0
-    _reduceTemperamentOverTime: 1
-    _reduceTemperamentAmount: 1
-    _reduceTemperamentCoolDown: 5
+    _addTemperamentOverTime: 1
+    _addTemperamentAmount: 1
+    _addTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -37554,7 +37554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inert: 0
-  _behaviour: {fileID: 11400000, guid: c61631b810c1b4cdf9d5c3e944ef77c0, type: 2}
+  _behaviour: {fileID: 0}
   _ping: 0
   _waypoints: {fileID: 0}
   _applyChangesOnWaypoints: 0
@@ -37574,21 +37574,21 @@ MonoBehaviour:
     _useIntoxication: 0
     _intoxicationPoints: 10
     _curIntoxicationPoints: 0
-    _reduceIntoxicationOverTime: 1
-    _reduceIntoxicationAmount: 1
-    _reduceIntoxicationCoolDown: 5
+    _addIntoxicationOverTime: 1
+    _addIntoxicationAmount: 1
+    _addIntoxicationCoolDown: 5
     _useMorale: 0
     _moralePoints: 10
     _curMoralePoints: 0
-    _reduceMoraleOverTime: 1
-    _reduceMoraleAmount: 1
-    _reduceMoraleCoolDown: 5
+    _addMoraleOverTime: 1
+    _addMoraleAmount: 1
+    _addMoraleCoolDown: 5
     _useTemperament: 0
     _temperamentPoints: 10
     _curTemperamentPoints: 0
-    _reduceTemperamentOverTime: 1
-    _reduceTemperamentAmount: 1
-    _reduceTemperamentCoolDown: 5
+    _addTemperamentOverTime: 1
+    _addTemperamentAmount: 1
+    _addTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -56679,7 +56679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inert: 0
-  _behaviour: {fileID: 11400000, guid: c61631b810c1b4cdf9d5c3e944ef77c0, type: 2}
+  _behaviour: {fileID: 0}
   _ping: 0
   _waypoints: {fileID: 0}
   _applyChangesOnWaypoints: 0
@@ -56699,21 +56699,21 @@ MonoBehaviour:
     _useIntoxication: 0
     _intoxicationPoints: 10
     _curIntoxicationPoints: 0
-    _reduceIntoxicationOverTime: 1
-    _reduceIntoxicationAmount: 1
-    _reduceIntoxicationCoolDown: 5
+    _addIntoxicationOverTime: 1
+    _addIntoxicationAmount: 1
+    _addIntoxicationCoolDown: 5
     _useMorale: 0
     _moralePoints: 10
     _curMoralePoints: 0
-    _reduceMoraleOverTime: 1
-    _reduceMoraleAmount: 1
-    _reduceMoraleCoolDown: 5
+    _addMoraleOverTime: 1
+    _addMoraleAmount: 1
+    _addMoraleCoolDown: 5
     _useTemperament: 0
     _temperamentPoints: 10
     _curTemperamentPoints: 0
-    _reduceTemperamentOverTime: 1
-    _reduceTemperamentAmount: 1
-    _reduceTemperamentCoolDown: 5
+    _addTemperamentOverTime: 1
+    _addTemperamentAmount: 1
+    _addTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -60783,7 +60783,7 @@ PrefabInstance:
     - target: {fileID: 7156070249630546584, guid: fc66148927fff499e84858d4df905ded,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -5.957
       objectReference: {fileID: 0}
     - target: {fileID: 7156070249630546584, guid: fc66148927fff499e84858d4df905ded,
         type: 3}
@@ -64271,21 +64271,21 @@ MonoBehaviour:
     _useIntoxication: 0
     _intoxicationPoints: 10
     _curIntoxicationPoints: 0
-    _reduceIntoxicationOverTime: 1
-    _reduceIntoxicationAmount: 1
-    _reduceIntoxicationCoolDown: 5
+    _addIntoxicationOverTime: 1
+    _addIntoxicationAmount: 1
+    _addIntoxicationCoolDown: 5
     _useMorale: 0
     _moralePoints: 10
     _curMoralePoints: 0
-    _reduceMoraleOverTime: 1
-    _reduceMoraleAmount: 1
-    _reduceMoraleCoolDown: 5
+    _addMoraleOverTime: 1
+    _addMoraleAmount: 1
+    _addMoraleCoolDown: 5
     _useTemperament: 0
     _temperamentPoints: 10
     _curTemperamentPoints: 0
-    _reduceTemperamentOverTime: 1
-    _reduceTemperamentAmount: 1
-    _reduceTemperamentCoolDown: 5
+    _addTemperamentOverTime: 1
+    _addTemperamentAmount: 1
+    _addTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -71313,7 +71313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inert: 0
-  _behaviour: {fileID: 11400000, guid: c61631b810c1b4cdf9d5c3e944ef77c0, type: 2}
+  _behaviour: {fileID: 0}
   _ping: 0
   _waypoints: {fileID: 0}
   _applyChangesOnWaypoints: 0
@@ -71333,21 +71333,21 @@ MonoBehaviour:
     _useIntoxication: 0
     _intoxicationPoints: 10
     _curIntoxicationPoints: 0
-    _reduceIntoxicationOverTime: 1
-    _reduceIntoxicationAmount: 1
-    _reduceIntoxicationCoolDown: 5
+    _addIntoxicationOverTime: 1
+    _addIntoxicationAmount: 1
+    _addIntoxicationCoolDown: 5
     _useMorale: 0
     _moralePoints: 10
     _curMoralePoints: 0
-    _reduceMoraleOverTime: 1
-    _reduceMoraleAmount: 1
-    _reduceMoraleCoolDown: 5
+    _addMoraleOverTime: 1
+    _addMoraleAmount: 1
+    _addMoraleCoolDown: 5
     _useTemperament: 0
     _temperamentPoints: 10
     _curTemperamentPoints: 0
-    _reduceTemperamentOverTime: 1
-    _reduceTemperamentAmount: 1
-    _reduceTemperamentCoolDown: 5
+    _addTemperamentOverTime: 1
+    _addTemperamentAmount: 1
+    _addTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -77188,7 +77188,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281266692}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 1.57, z: 0}
+  m_LocalPosition: {x: -5.957, y: 1.57, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1899637255}
@@ -81593,7 +81593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inert: 0
-  _behaviour: {fileID: 11400000, guid: c61631b810c1b4cdf9d5c3e944ef77c0, type: 2}
+  _behaviour: {fileID: 0}
   _ping: 0
   _waypoints: {fileID: 0}
   _applyChangesOnWaypoints: 0
@@ -81613,21 +81613,21 @@ MonoBehaviour:
     _useIntoxication: 0
     _intoxicationPoints: 10
     _curIntoxicationPoints: 0
-    _reduceIntoxicationOverTime: 1
-    _reduceIntoxicationAmount: 1
-    _reduceIntoxicationCoolDown: 5
+    _addIntoxicationOverTime: 1
+    _addIntoxicationAmount: 1
+    _addIntoxicationCoolDown: 5
     _useMorale: 0
     _moralePoints: 10
     _curMoralePoints: 0
-    _reduceMoraleOverTime: 1
-    _reduceMoraleAmount: 1
-    _reduceMoraleCoolDown: 5
+    _addMoraleOverTime: 1
+    _addMoraleAmount: 1
+    _addMoraleCoolDown: 5
     _useTemperament: 0
     _temperamentPoints: 10
     _curTemperamentPoints: 0
-    _reduceTemperamentOverTime: 1
-    _reduceTemperamentAmount: 1
-    _reduceTemperamentCoolDown: 5
+    _addTemperamentOverTime: 1
+    _addTemperamentAmount: 1
+    _addTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -92824,7 +92824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inert: 0
-  _behaviour: {fileID: 11400000, guid: c61631b810c1b4cdf9d5c3e944ef77c0, type: 2}
+  _behaviour: {fileID: 0}
   _ping: 0
   _waypoints: {fileID: 0}
   _applyChangesOnWaypoints: 0
@@ -92844,21 +92844,21 @@ MonoBehaviour:
     _useIntoxication: 0
     _intoxicationPoints: 10
     _curIntoxicationPoints: 0
-    _reduceIntoxicationOverTime: 1
-    _reduceIntoxicationAmount: 1
-    _reduceIntoxicationCoolDown: 5
+    _addIntoxicationOverTime: 1
+    _addIntoxicationAmount: 1
+    _addIntoxicationCoolDown: 5
     _useMorale: 0
     _moralePoints: 10
     _curMoralePoints: 0
-    _reduceMoraleOverTime: 1
-    _reduceMoraleAmount: 1
-    _reduceMoraleCoolDown: 5
+    _addMoraleOverTime: 1
+    _addMoraleAmount: 1
+    _addMoraleCoolDown: 5
     _useTemperament: 0
     _temperamentPoints: 10
     _curTemperamentPoints: 0
-    _reduceTemperamentOverTime: 1
-    _reduceTemperamentAmount: 1
-    _reduceTemperamentCoolDown: 5
+    _addTemperamentOverTime: 1
+    _addTemperamentAmount: 1
+    _addTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -98209,7 +98209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inert: 0
-  _behaviour: {fileID: 11400000, guid: c61631b810c1b4cdf9d5c3e944ef77c0, type: 2}
+  _behaviour: {fileID: 0}
   _ping: 0
   _waypoints: {fileID: 0}
   _applyChangesOnWaypoints: 0
@@ -98229,21 +98229,21 @@ MonoBehaviour:
     _useIntoxication: 0
     _intoxicationPoints: 10
     _curIntoxicationPoints: 0
-    _reduceIntoxicationOverTime: 1
-    _reduceIntoxicationAmount: 1
-    _reduceIntoxicationCoolDown: 5
+    _addIntoxicationOverTime: 1
+    _addIntoxicationAmount: 1
+    _addIntoxicationCoolDown: 5
     _useMorale: 0
     _moralePoints: 10
     _curMoralePoints: 0
-    _reduceMoraleOverTime: 1
-    _reduceMoraleAmount: 1
-    _reduceMoraleCoolDown: 5
+    _addMoraleOverTime: 1
+    _addMoraleAmount: 1
+    _addMoraleCoolDown: 5
     _useTemperament: 0
     _temperamentPoints: 10
     _curTemperamentPoints: 0
-    _reduceTemperamentOverTime: 1
-    _reduceTemperamentAmount: 1
-    _reduceTemperamentCoolDown: 5
+    _addTemperamentOverTime: 1
+    _addTemperamentAmount: 1
+    _addTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -98766,21 +98766,21 @@ MonoBehaviour:
     _useIntoxication: 0
     _intoxicationPoints: 10
     _curIntoxicationPoints: 0
-    _reduceIntoxicationOverTime: 1
-    _reduceIntoxicationAmount: 1
-    _reduceIntoxicationCoolDown: 5
+    _addIntoxicationOverTime: 1
+    _addIntoxicationAmount: 1
+    _addIntoxicationCoolDown: 5
     _useMorale: 0
     _moralePoints: 10
     _curMoralePoints: 0
-    _reduceMoraleOverTime: 1
-    _reduceMoraleAmount: 1
-    _reduceMoraleCoolDown: 5
+    _addMoraleOverTime: 1
+    _addMoraleAmount: 1
+    _addMoraleCoolDown: 5
     _useTemperament: 0
     _temperamentPoints: 10
     _curTemperamentPoints: 0
-    _reduceTemperamentOverTime: 1
-    _reduceTemperamentAmount: 1
-    _reduceTemperamentCoolDown: 5
+    _addTemperamentOverTime: 1
+    _addTemperamentAmount: 1
+    _addTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
@@ -127163,7 +127163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inert: 0
-  _behaviour: {fileID: 11400000, guid: c61631b810c1b4cdf9d5c3e944ef77c0, type: 2}
+  _behaviour: {fileID: 0}
   _ping: 0
   _waypoints: {fileID: 0}
   _applyChangesOnWaypoints: 0
@@ -127183,21 +127183,21 @@ MonoBehaviour:
     _useIntoxication: 0
     _intoxicationPoints: 10
     _curIntoxicationPoints: 0
-    _reduceIntoxicationOverTime: 1
-    _reduceIntoxicationAmount: 1
-    _reduceIntoxicationCoolDown: 5
+    _addIntoxicationOverTime: 1
+    _addIntoxicationAmount: 1
+    _addIntoxicationCoolDown: 5
     _useMorale: 0
     _moralePoints: 10
     _curMoralePoints: 0
-    _reduceMoraleOverTime: 1
-    _reduceMoraleAmount: 1
-    _reduceMoraleCoolDown: 5
+    _addMoraleOverTime: 1
+    _addMoraleAmount: 1
+    _addMoraleCoolDown: 5
     _useTemperament: 0
     _temperamentPoints: 10
     _curTemperamentPoints: 0
-    _reduceTemperamentOverTime: 1
-    _reduceTemperamentAmount: 1
-    _reduceTemperamentCoolDown: 5
+    _addTemperamentOverTime: 1
+    _addTemperamentAmount: 1
+    _addTemperamentCoolDown: 5
     _onDamageSounds: []
     _lockTime: 0.3
     Death:
