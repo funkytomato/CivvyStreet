@@ -100,7 +100,6 @@ namespace Eliot
                 "TargetHasLowIntoxication",
                 "TargetHasFullIntoxication",
                 "TargetNotFullyIntoxicated",
-                "TargetHasLowMorale",
                 "TargetHasFullMorale",
                 "TargetNotFullyMorale",
                 "TargetHasLowTemperament",

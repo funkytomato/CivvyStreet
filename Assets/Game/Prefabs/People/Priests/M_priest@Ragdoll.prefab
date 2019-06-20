@@ -796,7 +796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _type: 1
-  _team: Civilians
+  _team: Priests
   _friendTeams:
   - Police
 --- !u!136 &1533863634201844775
