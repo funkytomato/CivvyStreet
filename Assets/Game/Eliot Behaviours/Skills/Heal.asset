@@ -59,5 +59,6 @@ MonoBehaviour:
   _onApplyMessageToTarget: 
   _passPowerToTarget: 0
   _onApplyMessageToCaster: 
-  _loadingSkillSounds: []
+  _loadingSkillSounds:
+  - {fileID: 8300000, guid: 3f79a107c50644e09b72ac9e47b2a20e, type: 3}
   _executingSkillSounds: []

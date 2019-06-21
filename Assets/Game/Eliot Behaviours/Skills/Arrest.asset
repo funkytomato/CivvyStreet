@@ -10,49 +10,49 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d528dce79e9ecb743b09111f1f72f5ff, type: 3}
-  m_Name: Protest
+  m_Name: Arrest
   m_EditorClassIdentifier: 
   _interruptible: 1
   _canStack: 0
   _canAffectEnemies: 1
   _canAffectFriends: 1
-  _initSkillBy: 4
+  _initSkillBy: 0
   _projectilePrefab: {fileID: 0}
-  _range: 20
+  _range: 0
   _fieldOfView: 0
-  _loadTime: 1
-  _invocationDuration: 2
+  _loadTime: 0
+  _invocationDuration: 0
   _invocationPing: 0
-  _effectDuration: 5
+  _effectDuration: 0
   _effectPing: 0
   _coolDown: 0
   _minPower: 0
-  _maxPower: 20
-  _energyCost: 100
+  _maxPower: 0
+  _energyCost: 0
   _pushPower: 0
   _interruptTarget: 0
-  _freezeMotion: 1
+  _freezeMotion: 0
   _affectHealth: 0
   _healthAffectionWay: 0
-  _affectEnergy: 1
+  _affectEnergy: 0
   _energyAffectionWay: 0
   _affectIntoxication: 0
   _intoxicationAffectionWay: 0
-  _affectMorale: 1
+  _affectMorale: 0
   _moraleAffectionWay: 0
-  _affectTemperament: 1
+  _affectTemperament: 0
   _temperamentAffectionWay: 0
-  _setStatus: 1
-  _status: 3
-  _statusDuration: 5
+  _setStatus: 0
+  _status: 0
+  _statusDuration: 0
   _setPositionAsTarget: 0
-  _makeNoise: 1
-  _noiseDuration: 15
+  _makeNoise: 0
+  _noiseDuration: 0
   _additionalEffects: []
   _loadingAnimation: {fileID: 0}
   _executingAnimation: {fileID: 0}
-  _loadingMessage: Protest
-  _executingMessage: Protest
+  _loadingMessage: 
+  _executingMessage: 
   _onApplyFX: {fileID: 0}
   _onApplyFXOnTarget: {fileID: 0}
   _makeChildOfTarget: 0
@@ -60,6 +60,5 @@ MonoBehaviour:
   _passPowerToTarget: 0
   _onApplyMessageToCaster: 
   _loadingSkillSounds:
-  - {fileID: 8300000, guid: 5dc44de7e9b794a1ba629ffc99848dee, type: 3}
-  _executingSkillSounds:
-  - {fileID: 8300000, guid: 80861fc0e468d44d9baca5971889dbb1, type: 3}
+  - {fileID: 8300000, guid: 9730e9fdc58344e84bc5ef85d2fcbbe7, type: 3}
+  _executingSkillSounds: []
