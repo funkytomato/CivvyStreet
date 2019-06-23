@@ -3,38 +3,57 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using Pathfinding;
+using Pathfinding.RVO;
 
-public class CivilianAnimationComponent : MonoBehaviour
+/*
+ * Sets the animator properties Speed and isWalking.
+ * isWalking is to check for Idle and Walking velocity using RVOController.velocity.
+ */
+public class MovementAnimationScript : MonoBehaviour
 {
-    public GameObject parent;
+    public GameObject cloneObject;
     private AIPath aiPath;
     private Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
-        if (parent != null) 
+        if (cloneObject != null) 
         {
-            aiPath = parent.GetComponent<AIPath>();
+            aiPath = GetComponent<AIPath>();
+            
         }
         else
         {
-            Debug.Log("CivilianAnimationComponent Parent GameObject not set");
+            Debug.Log("CivilianAnimationComponent CloneObject not set");
         }
 
 
-        animator = GetComponent<Animator>();
+        animator = cloneObject.GetComponent<Animator>();
 
     }
 
     // Update is called once per frame
     void Update()
     {
+
+
+    }
+
+    private void FixedUpdate()
+    {
         if (animator != null)
         {
+            Vector3 velocity;
+            velocity = GetComponent<RVOController>().velocity;
+
+            Debug.Log(velocity);
+            animator.SetBool("isWalking", velocity.magnitude > 0.2f);
+
             if (aiPath != null)
             {
                 animator.SetFloat("Speed", aiPath.maxSpeed);
+
             }
             else
             {
@@ -45,11 +64,5 @@ public class CivilianAnimationComponent : MonoBehaviour
         {
             Debug.Log("CivilianAnimationComponent animator not found");
         }
-
-    }
-
-    private void FixedUpdate()
-    {
-
     }
 }
