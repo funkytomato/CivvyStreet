@@ -56,9 +56,10 @@ MonoBehaviour:
   _onApplyFX: {fileID: 0}
   _onApplyFXOnTarget: {fileID: 0}
   _makeChildOfTarget: 0
-  _onApplyMessageToTarget: InteractB
+  _onApplyMessageToTarget: Give
   _passPowerToTarget: 0
   _onApplyMessageToCaster: 
   _loadingSkillSounds:
-  - {fileID: 8300000, guid: 3f79a107c50644e09b72ac9e47b2a20e, type: 3}
-  _executingSkillSounds: []
+  - {fileID: 8300000, guid: ae33835ea1f44484fa7fb53db292eb6d, type: 3}
+  _executingSkillSounds:
+  - {fileID: 8300000, guid: 524b0e21ab5b64bbc8dc35a1d29e20fc, type: 3}

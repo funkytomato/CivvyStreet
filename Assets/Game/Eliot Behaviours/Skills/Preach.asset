@@ -52,7 +52,7 @@ MonoBehaviour:
   _loadingAnimation: {fileID: 0}
   _executingAnimation: {fileID: 0}
   _loadingMessage: Talk
-  _executingMessage: 
+  _executingMessage: Talk
   _onApplyFX: {fileID: 0}
   _onApplyFXOnTarget: {fileID: 0}
   _makeChildOfTarget: 0
@@ -60,5 +60,5 @@ MonoBehaviour:
   _passPowerToTarget: 0
   _onApplyMessageToCaster: 
   _loadingSkillSounds:
-  - {fileID: 8300000, guid: 43cbb8719e801413fb4e8078ffa661a4, type: 3}
+  - {fileID: 8300000, guid: 4c668350e7b0045a6b1c62022169cd1a, type: 3}
   _executingSkillSounds: []
