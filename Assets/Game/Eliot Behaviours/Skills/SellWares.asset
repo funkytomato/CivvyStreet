@@ -10,33 +10,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d528dce79e9ecb743b09111f1f72f5ff, type: 3}
-  m_Name: Arrest
+  m_Name: SellWares
   m_EditorClassIdentifier: 
-  _interruptible: 0
-  _canStack: 1
-  _canAffectEnemies: 1
+  _interruptible: 1
+  _canStack: 0
+  _canAffectEnemies: 0
   _canAffectFriends: 1
-  _initSkillBy: 3
+  _initSkillBy: 4
   _projectilePrefab: {fileID: 0}
-  _range: 2
-  _fieldOfView: 270
-  _loadTime: 0.5
+  _range: 10
+  _fieldOfView: 0
+  _loadTime: 1
   _invocationDuration: 0
   _invocationPing: 0
   _effectDuration: 0
   _effectPing: 0
-  _coolDown: 0.5
+  _coolDown: 1
   _minPower: 0
-  _maxPower: 0
-  _energyCost: 0
+  _maxPower: 100
+  _energyCost: 100
   _pushPower: 0
-  _interruptTarget: 0
-  _freezeMotion: 0
+  _interruptTarget: 1
+  _freezeMotion: 1
   _affectHealth: 0
   _healthAffectionWay: 0
   _affectEnergy: 0
   _energyAffectionWay: 0
-  _affectIntoxication: 0
+  _affectIntoxication: 1
   _intoxicationAffectionWay: 0
   _affectMorale: 0
   _moraleAffectionWay: 0
@@ -46,19 +46,19 @@ MonoBehaviour:
   _status: 0
   _statusDuration: 0
   _setPositionAsTarget: 0
-  _makeNoise: 0
-  _noiseDuration: 0
+  _makeNoise: 1
+  _noiseDuration: 5
   _additionalEffects: []
   _loadingAnimation: {fileID: 0}
   _executingAnimation: {fileID: 0}
-  _loadingMessage: Give
+  _loadingMessage: InteractB
   _executingMessage: 
   _onApplyFX: {fileID: 0}
   _onApplyFXOnTarget: {fileID: 0}
   _makeChildOfTarget: 0
-  _onApplyMessageToTarget: 
+  _onApplyMessageToTarget: Idle
   _passPowerToTarget: 0
   _onApplyMessageToCaster: 
   _loadingSkillSounds:
-  - {fileID: 8300000, guid: 9730e9fdc58344e84bc5ef85d2fcbbe7, type: 3}
+  - {fileID: 8300000, guid: d923e23d8346546d29b63c2a09c9398e, type: 3}
   _executingSkillSounds: []

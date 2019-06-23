@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Preach
   m_EditorClassIdentifier: 
   _interruptible: 0
-  _canStack: 0
+  _canStack: 1
   _canAffectEnemies: 1
   _canAffectFriends: 1
   _initSkillBy: 4
@@ -22,13 +22,13 @@ MonoBehaviour:
   _fieldOfView: 0
   _loadTime: 1
   _invocationDuration: 0
-  _invocationPing: 0
+  _invocationPing: 5
   _effectDuration: 0
   _effectPing: 0
   _coolDown: 1
   _minPower: 0
-  _maxPower: 100
-  _energyCost: 50
+  _maxPower: 20
+  _energyCost: 100
   _pushPower: 0
   _interruptTarget: 1
   _freezeMotion: 1
@@ -43,15 +43,15 @@ MonoBehaviour:
   _affectTemperament: 0
   _temperamentAffectionWay: 0
   _setStatus: 0
-  _status: 0
-  _statusDuration: 0
+  _status: 3
+  _statusDuration: 5
   _setPositionAsTarget: 0
-  _makeNoise: 0
-  _noiseDuration: 0
+  _makeNoise: 1
+  _noiseDuration: 5
   _additionalEffects: []
   _loadingAnimation: {fileID: 0}
   _executingAnimation: {fileID: 0}
-  _loadingMessage: InteractB
+  _loadingMessage: Talk
   _executingMessage: 
   _onApplyFX: {fileID: 0}
   _onApplyFXOnTarget: {fileID: 0}

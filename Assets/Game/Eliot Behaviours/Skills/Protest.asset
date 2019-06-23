@@ -12,25 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d528dce79e9ecb743b09111f1f72f5ff, type: 3}
   m_Name: Protest
   m_EditorClassIdentifier: 
-  _interruptible: 1
-  _canStack: 0
-  _canAffectEnemies: 1
+  _interruptible: 0
+  _canStack: 1
+  _canAffectEnemies: 0
   _canAffectFriends: 1
   _initSkillBy: 4
   _projectilePrefab: {fileID: 0}
-  _range: 20
+  _range: 10
   _fieldOfView: 0
   _loadTime: 1
-  _invocationDuration: 2
-  _invocationPing: 0
-  _effectDuration: 5
+  _invocationDuration: 5
+  _invocationPing: 5
+  _effectDuration: 0
   _effectPing: 0
-  _coolDown: 0
+  _coolDown: 1
   _minPower: 0
   _maxPower: 20
   _energyCost: 100
   _pushPower: 0
-  _interruptTarget: 0
+  _interruptTarget: 1
   _freezeMotion: 1
   _affectHealth: 0
   _healthAffectionWay: 0
@@ -47,12 +47,12 @@ MonoBehaviour:
   _statusDuration: 5
   _setPositionAsTarget: 0
   _makeNoise: 1
-  _noiseDuration: 15
+  _noiseDuration: 5
   _additionalEffects: []
   _loadingAnimation: {fileID: 0}
   _executingAnimation: {fileID: 0}
-  _loadingMessage: Protest
-  _executingMessage: Protest
+  _loadingMessage: Talk
+  _executingMessage: Talk
   _onApplyFX: {fileID: 0}
   _onApplyFXOnTarget: {fileID: 0}
   _makeChildOfTarget: 0
