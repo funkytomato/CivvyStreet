@@ -274,6 +274,21 @@ namespace Eliot.AgentComponents
         public bool TargetNotFullyIntoxication()
         { return _perception.SeeUnit(unit => !unit.GetComponent<Agent>().Resources.IntoxicationFull()); }
 
+
+        
+
+        /// <summary>
+        /// Return true if Agent can see a Unit is fighting.
+        /// </summary>
+        /// <returns></returns>
+        [IncludeInBehaviour]
+        public bool TargetIsFighting()
+        {
+            return _agent.Status == AgentStatus.Fighting
+                     || _perception.SeeUnit(unit => unit && unit.Type == Environment.UnitType.Agent && unit.GetComponent<Agent>().CurrentSkill
+                                               && unit.GetComponent<Agent>().CurrentSkill.State == SkillState.Loading);
+        }
+
         /// <summary>
         /// Return true if Agent can see a friend Agent with health lower than maximum.
         /// </summary>

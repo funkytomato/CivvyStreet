@@ -13,6 +13,9 @@
         Danger,
         HeardSomething,
         BeingAimedAt,
-        Absolved
+        Absolved,
+        Healing,
+        Incited,
+        Fighting
     }
 }

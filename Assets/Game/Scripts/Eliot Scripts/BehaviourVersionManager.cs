@@ -100,11 +100,13 @@ namespace Eliot
                 "TargetHasLowIntoxication",
                 "TargetHasFullIntoxication",
                 "TargetNotFullyIntoxicated",
+                "TargetHasLowMorale",
                 "TargetHasFullMorale",
                 "TargetNotFullyMorale",
                 "TargetHasLowTemperament",
                 "TargetHasFullTemperament",
                 "TargetNotFullyTemperament",
+                "TargetIsFighting",
                 "EnemyIsAimingAtMe",
                 "ObstaclesBeforeTarget",
                 "EnemyIsFleeing",
@@ -141,7 +143,10 @@ namespace Eliot
                 "FarFromHome",
                 "AtHome",
                 "SkillReadyToUse",
-                "Absolved"
+                "Absolved",
+                "Healing",
+                "Incited",
+                "Fighting"
             };
 
             #endregion

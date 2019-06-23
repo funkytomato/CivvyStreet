@@ -216,11 +216,15 @@ namespace Eliot.AgentComponents
         public void Init(Agent agent)
 		{
 			_agent = agent;
-			if (_useHealth) _curHealthPoints = _healthPoints;
-			if (_useEnergy) _curEnergyPoints = _energyPoints;
-            if (_useIntoxication) _curIntoxicationPoints = _intoxicationPoints;
-            if (_useMorale) _curMoralePoints = _moralePoints;
-            if (_useTemperament) _curTemperamentPoints = _temperamentPoints;
+
+            //Commented code because I want to set the health to _current value
+
+            //if (_useHealth) _curHealthPoints = _healthPoints;
+            //if (_useEnergy) _curEnergyPoints = _energyPoints;
+            //         if (_useIntoxication) _curIntoxicationPoints = _intoxicationPoints;
+            //         if (_useMorale) _curMoralePoints = _moralePoints;
+            //         if (_useTemperament) _curTemperamentPoints = _temperamentPoints
+
             _agentAnimation = _agent.AgentAnimation;
 			Death.Init(agent);
 		}
