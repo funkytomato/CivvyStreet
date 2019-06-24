@@ -61,5 +61,4 @@ MonoBehaviour:
   _onApplyMessageToCaster: 
   _loadingSkillSounds:
   - {fileID: 8300000, guid: 909c14025ef5c416f9010435bc3f01bb, type: 3}
-  _executingSkillSounds:
-  - {fileID: 8300000, guid: d923e23d8346546d29b63c2a09c9398e, type: 3}
+  _executingSkillSounds: []

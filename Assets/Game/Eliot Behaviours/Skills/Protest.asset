@@ -60,6 +60,6 @@ MonoBehaviour:
   _passPowerToTarget: 0
   _onApplyMessageToCaster: 
   _loadingSkillSounds:
-  - {fileID: 8300000, guid: c972ba0bc380e49e8bdc5f661cde2821, type: 3}
+  - {fileID: 8300000, guid: f2606a7a4504b4f5e9d71bb0b39386ca, type: 3}
   _executingSkillSounds:
-  - {fileID: 8300000, guid: 8725665a311ec4bd7977177633b058d0, type: 3}
+  - {fileID: 8300000, guid: f2606a7a4504b4f5e9d71bb0b39386ca, type: 3}
